@@ -1,0 +1,21 @@
+{
+  "name": "laventana-back",
+  "version": "1.0.0",
+  "description": "LaVentana back-end application made for: 100% Natural. Made by: Armando Arredondo Valle, Antonio Noguerón Bárcenas and Camila Turner Escalante",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "LaVentana"
+  ],
+  "author": "Armando Arredondo Valle",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.1"
+  }
+}
